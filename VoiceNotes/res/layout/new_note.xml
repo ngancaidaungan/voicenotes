@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:background="@drawable/gradient"
+  android:layout_height="fill_parent">
+  
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:padding="15px">
+		
+		<TextView android:id="@+id/txtAccountName" android:textStyle="bold"
+			android:layout_width="fill_parent" android:text="Account Name" 
+			android:layout_height="wrap_content" android:textSize="20px" android:layout_marginTop="10px" android:layout_marginBottom="10px"
+			android:textColor="#FF000000" android:gravity="center_vertical|center_horizontal"/>
+		
+		<Button android:id="@+id/btnStart"
+			android:text="Start Recording" android:layout_height="80px"
+			android:textSize="18px" android:layout_width="fill_parent" 
+			android:layout_marginTop="5px"
+			android:layout_marginBottom="15px" />
+					
+		<Button android:id="@+id/btnSubmitInquiry"
+			android:text="Submit Voice Note"
+			android:textSize="14sp" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="5px"
+			android:layout_marginLeft="5px" android:layout_marginRight="5px"
+			android:layout_marginBottom="5px" />
+		
+	</LinearLayout> 
+</LinearLayout>
